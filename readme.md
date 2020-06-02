@@ -1,6 +1,12 @@
 # Scraping Veracode Status Page
 
+## Cómo lo uso?
 
+Para dejar corriendo el script en una ventana de la terminal conviene ejecutarlo de la siguiente manera:
+
+```bash
+watch -n 1 --color  src/main.sh
+```
 
 
 ## Source
