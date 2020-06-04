@@ -3,9 +3,12 @@
 #########################################
 # Globals
 #########################################
-URL="https://mongocache.asm.ca.com"
+
 WORKDIRECTORY=$(dirname "$(realpath $0)")
 
+if [[ -f ".env" ]]; then
+    source .env
+fi
 #########################################
 # Commons
 #########################################
@@ -76,19 +79,3 @@ function main()
 
 main "$@"
 exit;
-
-#// curl the page and save content to tmp_file
-#curl https://status.veracode.com > tmp_file_2
-#https://mongocache.asm.ca.com/synth/current/113128/monitor/481388/?callback=parseJsonpResponse&fields=info;cur
-#// Veracode Analytics
-#//cat tmp_file | grep "id=\"cur_m_510757\"" | cut -d'>' -f4 | cut -d'<' -f1
-#//cat tmp_file | grep "id=\"curr_status_desc_510757\""
-#//cat tmp_file | grep "Service is operating normally"
-
-#// Veracode API Authentication
-#//cat tmp_file | grep "id=\"cur_m_481388\"" | cut -d'>' -f4 | cut -d'<' -f1
-#//cat tmp_file | grep "id=\"curr_status_desc_481388\""
-#//cat tmp_file | grep "Service is operating normally"
-
-
-#Status normal = Service is operating normally

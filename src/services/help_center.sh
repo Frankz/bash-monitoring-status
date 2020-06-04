@@ -9,5 +9,5 @@ function get_help_center_json()
 
 function get_help_center_status()
 {
-    get_status get_help_center_json
+    get_status get_help_center_json Veracode
 }

@@ -1,5 +1,6 @@
 .git/*
 .editconfig
 .gitignore
+.env
 Dockerfile
 readme.md

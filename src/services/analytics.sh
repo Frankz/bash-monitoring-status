@@ -9,5 +9,5 @@ function get_analytics_json()
 
 function get_analytics_status()
 {
-    get_status get_analytics_json
+    get_status get_analytics_json Veracode
 }

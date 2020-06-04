@@ -1,0 +1,1 @@
+*/1 * * * * /opt/src/main.sh >> /dev/stdout

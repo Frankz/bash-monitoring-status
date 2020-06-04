@@ -9,5 +9,5 @@ function get_platform_json()
 
 function get_platform_status()
 {
-    get_status get_platform_json
+    get_status get_platform_json Veracode
 }

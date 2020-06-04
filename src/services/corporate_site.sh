@@ -9,5 +9,5 @@ function get_corporate_site_json()
 
 function get_corporate_site_status()
 {
-    get_status get_corporate_site_json
+    get_status get_corporate_site_json Veracode
 }

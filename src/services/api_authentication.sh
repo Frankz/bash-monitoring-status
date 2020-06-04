@@ -9,5 +9,5 @@ function get_api_authentication_json()
 
 function get_api_authentication_status()
 {
-    get_status get_api_authentication_json
+    get_status get_api_authentication_json Veracode
 }
